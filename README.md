@@ -219,7 +219,7 @@ _hint:_ Objects by definition have **unique** keys. Later in the problem you cou
 &#x1F534; **Commit** "humdinger"
 <hr>
 
-## Hungry For Quite a bit more?
+# Hungry For Quite a bit more?
 
 Complete this [advanced object lab using weather data](https://git.generalassemb.ly/WebDev-Connected-Classroom/weather-object-lab), committing as you go.
 
@@ -228,12 +228,8 @@ Complete this [advanced object lab using weather data](https://git.generalassemb
 Some tasty CSS videos:
 
 * [Box Model](https://www.youtube.com/watch?v=HNgdhp1_kEE&index=6&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 7:17
-
 * [CSS Display](https://www.youtube.com/watch?v=qjSe_K3agYc&index=7&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 6:24
-
 * [Positioning](https://www.youtube.com/watch?v=zH8kjJdvmOs&index=8&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 11:57
-
 * [Units of measure I](https://www.youtube.com/watch?v=5axuSSBIMuQ&index=9&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 10:25
-
 * [Units of measure II](https://www.youtube.com/watch?v=ZfxNpQm6m2g&index=10&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J), 14:27
 
