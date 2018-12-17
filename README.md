@@ -21,7 +21,7 @@ Competencies: Objects, Arrays, Loops<br>
 
 2. Track and commit all files 
 `git add .`<br>
-`git commit -m '<message>'`
+`git commit -m '<message>'`<br>
 your first commit message should look something like this `'ceated app.js file'`
 
 
