@@ -167,9 +167,13 @@ console.log(bondTitles);
 console.log(`******* #6) Bond Films *******` );
 //Create a new array oddBonds, of only the Bond films released on odd-numbered years.
 
-
-
-
+let oddBonds = []
+for(let titles of bondFilms)
+{
+	if(titles.year%2 == 1)
+		oddBonds.push(titles.title);
+}
+console.log(oddBonds);
 
 
 console.log(`******* #7) Bond Films *******` );
