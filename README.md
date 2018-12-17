@@ -19,7 +19,7 @@ Competencies: Objects, Arrays, Loops<br>
 `cd <cloned directory name>` and <br>
 `touch app.js` 
 
-2. Track and commit all files 
+2. Track and commit all files<br> 
 `git add .`<br>
 `git commit -m '<message>'`<br>
 your first commit message should look something like this `'ceated app.js file'`
