@@ -13,7 +13,6 @@ Competencies: Objects, Arrays, Loops<br>
 ## Setup
 
 0. Fork this repository from my git hub. Then clone it into the directory with all of your other assignments.
-<br>
 `git clone <url for the repo you forked>`
 
 1.  Create a file called `app.js` inside of the cloned directory. Using
