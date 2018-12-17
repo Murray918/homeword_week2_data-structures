@@ -11,7 +11,31 @@ Competencies: Objects, Arrays, Loops<br>
 ---
 
 ## Setup
-1. Fork/Clone and create our html/css/js folder structure. Write your answers in the `app.js` file. Use comments for the non-code responses. Be sure answers that are code and whatever tests you write are uncommented when you submit. Make a pull request when it's done.
+
+0. Fork this repository from my git hub. Then clone it into the directory with all of your other assignments.
+<br>
+`git clone <url for the repo you forked>`
+
+1.  Create a file called `app.js` inside of the cloned directory. Using
+`cd <cloned directory name>` and <br>
+`touch app.js` 
+
+2. Track and commit all files 
+`git add .`<br>
+`git commit -m '<message>'`
+your first commit message should look something like this `'ceated app.js file'`
+
+
+3. push this repo to your github <br>
+`git push -u oirigin master`
+
+4. If you're stuck on something for "too long" or get overly frustrated, make a comment and move on. Return to it later.
+
+5. After each section (even if you're not fully done with it), *add* and *commit* your work. Use the commit messages that you see at the end of each section. If you go back and fix a section, commit again with an updated message. We want to see at-least one commit for each problem. 
+
+6. When you are done with your homework, push to your fork and then and make a pull request to my github.
+
+* Remember: the "Bonus" questions and the "Hungry for More" questions don't count against you, they're just extra questions if you wanna push beyond the baseline.
 
 
 ## The questions!
