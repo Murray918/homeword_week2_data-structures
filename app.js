@@ -37,5 +37,24 @@ const name = {
 console.log(`******* #2) Take it Easy *******` );
 
 
+//Take it Easy
+//- Make an array that holds all of the colors of the rainbow.
+//- Write code that will access "blue" from the rainbow array.
+//- Make an object that is called your name and holds the information about your favorite food, a hobby, the name of the town that you live in currently, and your favorite datatype.
+//- Write code that will access your hobby from the object that you just created.
+
+let colorsOfRainbow = ["Red", "Orange","Yellow","Green","Blue","Indigo", "Violet"];
+console.log(colorsOfRainbow[4]);
+
+const Christopher = {
+	food: "Spaghetti",
+	hobby: "football",
+	town: "Austin",
+	datatype: "String"
+}
+
+console.log(Christopher.hobby);
+
+console.log(`******* #3) Crazy Object! *******` );
 
 
