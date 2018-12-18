@@ -23,11 +23,49 @@ and each with a list of favorite tv shows.*/
 // let colorRain = ["blue", "red", "yellow", "green", "orange", "indigo"]
 // colorRain[0]
 
-//3
-let yourName = {
-	favoriteFood: "pizza",
-	hobby: "magic",
-	homeTown: "atlantis",
-	favoriteData: "arrays"
+//3 & 4
+// let yourName = {
+// 	favoriteFood: "pizza",
+// 	hobby: "magic",
+// 	homeTown: "atlantis",
+// 	favoriteData: "arrays"
+// }
+// yourName.hobby
+
+// Crazy Object! 3
+const crazyObject = {
+  taco: [
+    {
+      meat: 'steak',
+      cheese: ['panela', 'queso', 'chihuahua']
+    },
+    {
+      meat: 'chicken',
+      salsa: ["pico", "hot", "hotter", "really hot", "really really hot", "omg my mouth is burning"]
+    },
+  ],
+  larry: {
+    nicknames: ["LD", "Chicken Teriyaki Boyyyyyy"],
+    quotes: ["Pretty pretty prettayyyyy good", "Is that a parkinson's thing?", "women love a self confident bald man", "I'm a walking talking enigma"],
+    characters: [
+      {
+        name: "Jeff",
+        occupation: "manager"
+      },
+      {
+        name: "funkhauser",
+        occupation: "tv dude"
+      },
+      {
+        name: "susie",
+        occupation: "jeffs wife",
+        favourtieHobby: "Swearing at Larry and Jeff"
+      },
+    ]
+  }
 }
-yourName.hobby
+console.log(crazyObject.taco[1].salsa[5])
+console.log(crazyObject.larry.quotes[0])
+console.log(crazyObject.larry.characters[2].favourtieHobby)
+console.log(crazyObject.larry.nicknames[1])
+console.log("The object contains the name " + crazyObject.larry.characters[1].name)
