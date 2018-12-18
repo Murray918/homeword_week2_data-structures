@@ -30,6 +30,16 @@ let moreStudentInfo = [ {
 	}
 	]
 console.log(moreStudentInfo)
-
+//2 take it easy
 let colors = ['red','orange','yellow','green','blue','indigo','violet']
 console.log(colors[4])
+
+let Jules = {
+	fav_food: "Ramen",
+	hobby: "Golfing",
+	town: "Austin",
+	datatype: "Triple Nested Arrays"
+
+}
+console.log(Jules)
+console.log(Jules.hobby)
