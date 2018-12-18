@@ -68,7 +68,7 @@ let johnathan = {
 	dataType: 'String'
 }
 console.log(johnathan.hobby)
-*/
+
 
 const crazyObject = {
   taco: [
@@ -106,14 +106,29 @@ const crazyObject = {
 //console.log(crazyObject.larry.quotes[0])
 //console.log(crazyObject.larry.characters[2].favourtieHobby)
 //console.log(crazyObject.larry.nicknames[1])
-console.log(crazyObject.larry.characters[1])
-console.log(crazyObject.larry.characters[1].name)
+//console.log(crazyObject.larry.characters[1])
+//console.log(crazyObject.larry.characters[1].name)
+*/
 
-
-
-
-
-
+const inception = {
+   reality: {
+       dreamLayer1: {
+           dreamLayer2: {
+               dreamLayer3: {
+                   dreamLayer4: {
+                       dreamLayer5: {
+                           dreamLayer6: {
+                               limbo: "Joseph Gordon Levitt"
+                          }
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo = null
+console.log(inception.reality.dreamLayer1.dreamLayer2.dreamLayer3.dreamLayer4.dreamLayer5.dreamLayer6.limbo)
 
 
 
