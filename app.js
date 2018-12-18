@@ -112,3 +112,44 @@ for(let film of bondFilms) {
 	grossSum+=deformattedNum
 }
 console.log(grossSum)
+let actors = {
+	Daniel: [0, "Daniel Craig"],
+	Sean: [0, "Sean Connery"],
+	Roger: [0, "Roger Moore"],
+	Pierce: [0, "Pierce Brosnan"],
+	George: [0,"George Lazenby"],
+	Timothy: [0, "Timothy Dalton"]
+}
+for(let film of bondFilms) {
+	switch(film.actor){
+	case "Daniel Craig":
+		actors.Daniel[0]++
+		break
+	case "Sean Connery":
+		actors.Sean[0]++
+		break
+	case "Roger Moore":
+		actors.Roger[0]++
+		break
+	case "Timothy Dalton":
+		actors.Timothy[0]++
+		break
+	case "Pierce Brosnan":
+		actors.Pierce[0]++
+		break
+	case "George Lazenby":
+		actors.George[0]++
+		break
+	}
+}
+let currentHighest = 0
+let bestActor = ""
+for(let actor in actors) {
+	if(actors[actor][0]>currentHighest)
+		currentHighest = actors[actor][0]
+}
+for(let appearance of Object.values(actors)) {
+	if(appearance[0] === currentHighest)
+		bestActor = appearance[1]
+}
+console.log(bestActor)
