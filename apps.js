@@ -113,7 +113,7 @@ const bondFilms = [
   { "title" : "A View to a Kill", "year" : 1985, "actor" : "Roger Moore", "gross" : "$321,172,633" },
   { "title" : "License to Kill", "year" : 1989, "actor" : "Timothy Dalton", "gross" : "$285,157,191" }
 ]
-
+/*
 let bondTitles = [] 
 
 for(let i =0 ; i <bondFilms.length; i++){
@@ -130,3 +130,17 @@ for(let i = 0 ; i < bondFilms.length; i++){
 	}
 }
 console.log(oddBonds)
+*/
+/*
+let money = []
+
+for(let i = 0; i < bondFilms.length; i++){
+	money.push(bondFilms[i]['gross'])
+}
+for(let i =0; i< money.length; i++){
+	
+	}
+*/
+
+
+
