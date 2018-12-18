@@ -122,4 +122,11 @@ for(let i =0 ; i <bondFilms.length; i++){
 
 console.log(bondTitles)
 
+let oddBonds = []
 
+for(let i = 0 ; i < bondFilms.length; i++){
+	if(bondFilms[i]['year']%2 != 0){
+		oddBonds.push(bondFilms[i])
+	}
+}
+console.log(oddBonds)
