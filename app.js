@@ -117,11 +117,20 @@ const bondFilms = [
   { "title" : "License to Kill", "year" : 1989, "actor" : "Timothy Dalton", "gross" : "$285,157,191" }
 ];
 
-let bondTitles = bondFilms
+
 
 for(let i = 0; i < bondFilms.length; i++){
 	console.log(bondFilms[i].title)
 }
+
+for(let i = 0; i < bondFilms.length; i++){
+	if(bondFilms[i].year % 2 !== 0)
+		console.log(bondFilms[i].year)
+}
+
+
+
+
 
 
 
