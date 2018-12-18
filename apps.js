@@ -7,3 +7,17 @@
 5.object
 6.object with arrays
 */
+//2
+
+
+let colors = ['Green','Blue','Orange','Red','Yellow','purple']
+
+colors[1]
+
+let josh = {
+	favoriteFood : 'Pasta',
+	town : 'Austin',
+	hobby : 'video games',
+	favoriteDataType: 'Object'
+}
+
