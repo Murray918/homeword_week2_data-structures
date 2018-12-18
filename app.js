@@ -96,12 +96,19 @@ const bondFilms = [
   { "title" : "License to Kill", "year" : 1989, "actor" : "Timothy Dalton", "gross" : "$285,157,191" }
 ];
 let bondTitles = []
-for(let titles of bondFilms) {
-	bondTitles.push(titles.title)
+for(let film of bondFilms) {
+	bondTitles.push(film.title)
 }
 console.log(bondTitles)
-
-
-
-
-
+let oddBonds = []
+for(let film of bondFilms) {
+	if(film.year % 2 !== 0)
+		oddBonds.push(film)
+}
+let grossSum = 0
+let deformattedNum = 0
+for(let film of bondFilms) {
+	deformattedNum = parseInt((film.gross.replace("$", "")).replace(/,/g,""))
+	grossSum+=deformattedNum
+}
+console.log(grossSum)
