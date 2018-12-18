@@ -1,4 +1,4 @@
-
+/*
 A light switch that can be either on or off.
 
 Boolean
@@ -57,3 +57,31 @@ let students [{
   	show: ['The Office']
   }
 }]
+*/
+let rainbow = ['red', 'orange', 'yellow', 'green', 'blue']
+//console.log(rainbow[4])
+
+let johnathan = {
+	favoriteFood: 'pizza',
+	hobby: 'Fly Fishing',
+	city: 'Austin',
+	dataType: 'String'
+}
+console.log(johnathan.hobby)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
