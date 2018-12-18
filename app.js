@@ -177,7 +177,15 @@ console.log(oddBonds);
 
 
 console.log(`******* #7) Bond Films *******` );
-//Determine the total cumulative gross of the Bond franchise, and console.log the result.
 
+//Determine the total cumulative gross of the Bond franchise, and console.log the result.
+let totalGross = 0
+
+for(let gross of bondFilms)
+{
+	totalGross += parseInt(gross.gross.replace(/,|\$/g, ''),10);
+}
+
+console.log(`Total Gross of all the films (represented as a number): ${totalGross}`);
 
 
