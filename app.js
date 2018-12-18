@@ -69,3 +69,23 @@ console.log(crazyObject.larry.characters[2].favourtieHobby)
 console.log(crazyObject.larry.nicknames[1])
 console.log(crazyObject.larry.characters)
 
+const inception = {
+   reality: {
+       dreamLayer1: {
+           dreamLayer2: {
+               dreamLayer3: {
+                   dreamLayer4: {
+                       dreamLayer5: {
+                           dreamLayer6: {
+                               limbo: "Joseph Gordon Levitt"
+                          }
+                       }
+                   }
+               }
+           }
+       }
+   }
+}
+
+limbo = null
+console.log(limbo)
